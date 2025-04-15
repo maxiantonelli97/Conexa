@@ -1,4 +1,32 @@
-#Conexa
+# Conexa
+
+# Sobre el proyecto
+
+Este es un proyecto creado por mí, Maximiliano Antonelli, como prueba técnica para Conexa.
+
+Tenemos un patrón de arquitectura MVVM.
+
+Se usan en el proyecto: SwiftUI, la librería de GoogleMaps, Combine, entre otras.
+
+Tenemos también los UnitTest de las funciones del ViewModel.
+
+La consigna básicamente fue la siguiente:
+
+---
+La aplicación debe constar de 4 pantallas:
+
+- Lista y buscador de noticias por título o contenido (Pantalla de Inicio)
+- Detalles de la noticia seleccionada (Pantalla de Detalle)
+- Lista de usuarios (Pantalla de Usuarios)
+- Ubicación en el mapa del usuario (Pantalla de Mapa)
+
+La app deberá ser una lista de noticias y una lista de usuarios. En la lista de usuarios debe mostrarse un botón que abra la pantalla de mapa, en donde con Google Maps debe mostrar la ubicación del usuario seleccionado. No hay restricciones en cuanto a los datos que se muestran tanto de las noticias como de los usuarios.
+
+---
+
+Entonces, decidí tener 2 secciones principales: Noticias y Usuarios. Cada una en un tab diferente.
+
+Liste los items en cada sección, y al tocar en cada uno, te lleva a una nueva vista: Para las noticias, muestra la información extendida. Y para los usuarios, muestra su ubicación en el mapa.
 
 # 🧭 Configuración Inicial del Proyecto Xcode
 
